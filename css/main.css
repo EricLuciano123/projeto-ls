@@ -1,0 +1,115 @@
+@font-face {
+	font-family: Pacifico-Regular;
+	src: local(Pacifico-Regular), url(../fonts/Pacifico-Regular.ttf)
+}
+
+body {
+  margin: 0;
+}
+
+/* Início cabeçalho */
+header .portfolio {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  font-family: Pacifico-Regular;
+  font-size: 5em;
+  color: white;
+  background: url(../img/cabecalho.png);
+  height: 3em;
+  width: auto;
+}
+
+/* Fim cabeçalho */
+
+/* Início corpo */
+.coluna-esq {
+  height: 700px;
+  width: 350px;
+  padding: 0 10px;
+  background: white;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+  border-radius: 15px;
+}
+
+.foto {
+  height: 150px;
+  width: 150px;
+  background: rgb(122, 122, 122);
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.foto img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.name-dd {
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.name-dd2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(100, 99, 99);
+}
+
+.dados p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px 25px 5px 25px;
+}
+
+.dados .name-1 {
+  font-weight: bold;
+}
+
+.dados .name-2 {
+  color: rgb(83, 83, 83);
+}
+
+.coluna-dir {
+  position: absolute;
+  left: 480px;
+  top: 250px;
+  height: 600px;
+  width: 850px;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+  border-radius: 15px;
+}
+.itens {
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  margin: 10px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  background: rgb(131, 130, 130);
+}
+button {
+  margin: 5px;
+}
+/* Fim corpo */
+
+
+/* Início rodapé */
+
+/* Fim rodapé */

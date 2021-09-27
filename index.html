@@ -10,7 +10,8 @@
 
   <body>
     <header class="cabeçalho">
-      <div class="portfolio">Portfólio</div>
+      <div class="portfolio-background"></div>
+      <div class="name-portfolio">Portfólio</div>
     </header>
 
     <main class="corpo">
@@ -18,52 +19,77 @@
         <div class="foto">
           <img src="img/gato.jpg" alt="perfil">
         </div>
-        
-        <div class="name-dd">
+        <div class="name-titulo">
           <span><b>Eric Luciano</b></span>
         </div>
-        <div class="name-dd2">
-          <span>Developer</span>
+        <div class="name-cont">
+          <div class="cargo">
+            <span>Software Developer</span>
+          </div>
         </div>
-        <div class="name-dd2">
+        <div class="name-cont">
           <span>15/08/2000</span>
         </div>
+        <div class="redes-sociais"></div>
 
+        <div class="name-titulo">
+          <span><b>Apresentação</b></span>
+        </div>
+        <div class="apresentacao">
+          <p>
+            Olá, meu nome sou Eric Luciano de Almeida Santos, bem-vindo ao meu portfólio, aqui encontrará algumas das minhas infomações pessoais e meus projetos desenvolvidos no decorrer da minha história na área de TI. 
+          </p>
+        </div>
+        <div class="name-titulo">
+          <span><b>Formação</b></span>
+        </div>
         <div class="dados">
             <p>
-              <span class="name-2">HTML5</span>
-              <span class="name-2">CSS3</span>
+              <span class="links">
+                <a href="https://estudante.ifpb.edu.br/cursos/39/">Sistemas p/ Internet</a>
+              </span>
+              <span class="links">
+                <a href="https://www.ifpb.edu.br/">IFPB</a>
+              </span>
             </p>
             <p>
-              <span class="name-2">JavaScript</span>
-              <span class="name-2">MySQL</span>
+              <span class="links">
+                <a  href="https://funetec.com/cursos/8">Técnico em Informática</a>
+              </span>
+              <span class="links">
+                <a href="https://funetec.com/">Funetec</a>
+              </span>
             </p>
+         <div class="name-titulo">
+          <span><b>Habilidades</b></span>
+         </div>
+          <div class="habilidades"></div>
         </div>
-        
-      </div>
-
-      <div class="coluna-dir">
-        <button>Projetos</button>
-        <button>Jogos</button>
-        <div class="itens">
-          <div class="item">
-            Aqui rege um link
-          </div>
-
-          <div class="item">
-            Aqui rege um link
-          </div>
-        </div>
-        
-
       </div>
     
+      <div class="coluna-dir">
+        <button onclick="alternarjogo();" class="botoesalternadores">Projetos</button>
+        <button onclick="alternaprojeto();" class="botoesalternadores">Jogos</button>
+        <div class="projetos">
+          <div class="itens"></div>
+        </div>
+        <div class="jogos">
+          <div class="itens-jogos"></div>  
+        </div>  
+      </div>
     </main>
 
-    <footer class="rodapé">
-
+    <footer class="rodape">
+      <p>Desenvolvido por 
+        <a href="https://www.linkedin.com/in/eric-luciano-a-s/">@Eric Luciano</a>
+        <a href ="https://www.linkedin.com/in/fabiana-oliveira-624240138/">@Fabiana Beda</a>
+        <a href="#">@Felipe Targino</a>
+      </p>
     </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="/js/script.js" ></script>
+    <script src="/js/scripts-cards/script-card-projetos.js" type="module"></script>
+    <script src="/js/scripts-cards/script-card-jogos.js" type="module"></script>
+    <script src="/js/scripts-cards/card-habilidades.js" type="module"></script>
   </body>
 </html>

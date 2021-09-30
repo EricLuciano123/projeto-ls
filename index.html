@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Portfólio</title>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   </head>
 
   <body>
@@ -60,16 +61,30 @@
                 <a href="https://funetec.com/">Funetec</a>
               </span>
             </p>
-         <div class="name-titulo">
+        <div class="name-titulo">
           <span><b>Habilidades</b></span>
-         </div>
+        </div>
           <div class="habilidades"></div>
         </div>
+        <a href="pages/formulario.html"> <button class="botao-contato">Contate-me</button> </a>
+        
+
       </div>
     
       <div class="coluna-dir">
-        <button onclick="alternarjogo();" class="botoesalternadores">Projetos</button>
-        <button onclick="alternaprojeto();" class="botoesalternadores">Jogos</button>
+        <div class="bar-col-dir">
+          <div id="button-alt">
+            <button onclick="alternarjogo();" class="botoesalternadores">Projetos</button>
+            <button onclick="alternaprojeto();" class="botoesalternadores">Jogos</button>
+          </div>
+          <!-- <div class="search-bar">
+            <input type="text" name="pesquisa" placeholder="Digite o nome do projeto!">
+            <div class="search">
+              <i class="fas fa-search"></i>
+            </div>
+          </div> -->
+        </div>
+        
         <div class="projetos">
           <div class="itens"></div>
         </div>
@@ -86,7 +101,8 @@
         <a href="#">@Felipe Targino</a>
       </p>
     </footer>
-
+    
+    
     <script src="/js/script.js" ></script>
     <script src="/js/scripts-cards/script-card-projetos.js" type="module"></script>
     <script src="/js/scripts-cards/script-card-jogos.js" type="module"></script>

@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   height: auto;
   width: 300px;
   padding: 0px 10px 15px 0px;
@@ -112,6 +113,20 @@ body {
   color: black;
 }
 
+.botao-contato{
+  color: white;
+  background: #6495ED;
+  border: none;
+  text-align: center;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.botao-contato:hover { 
+  background: #447ce6;
+}
+
 .dados {
   margin-top: 15px;
 }
@@ -171,6 +186,40 @@ body {
   margin: 5px; 
   background: rgb(255, 255, 255);
   border-radius: 15px;
+}
+
+.bar-col-dir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar{
+  background: #414040;
+  padding: 8px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.search-bar input {
+  background: none;
+  border: none;
+  
+}
+
+
+.fa-search {
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.fa-search:hover {
+  background: black;
+  color: white;
 }
 
 .botoesalternadores {
